@@ -321,7 +321,7 @@ function checkBoard(){
                                 correct++
                                 smallPart.classList.remove("wrong")
                                 smallPart.classList.add("fixed")
-                                if(correct == levels[level]["correctAnswerNumber"]){
+                                if(correct == 1){
                                         level++
                                         totalLevelDisplay++
                                         nextLevel.style.display = "block"
