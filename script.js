@@ -331,8 +331,7 @@ function checkBoard(){
                                             body.style.display = "none"
                                             tutorial.style.display = "none"
                                             header.style.display = "none"
-                                            footer.style.display = "flex"
-                                            
+                                            footer.style.display = "flex"        
                                         }
                                         createNextLevel(smallParts)
                                     })
